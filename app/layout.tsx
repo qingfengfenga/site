@@ -7,7 +7,7 @@ import { Analytics } from '@vercel/analytics/react';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://leerob.com'),
+  metadataBase: new URL('https://vvong.com'),
   alternates: {
     canonical: '/',
   },
@@ -42,10 +42,10 @@ export default function RootLayout({
 
 function Footer() {
   const links = [
-    { name: '@leerob', url: 'https://x.com/leeerob' },
-    { name: 'youtube', url: 'https://www.youtube.com/@leerob' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/leeerob' },
-    { name: 'github', url: 'https://github.com/leerob' },
+    { name: '@Wong', url: 'https://x.com/wong' },
+    { name: 'Youtube', url: 'https://www.youtube.com/@wong' },
+    { name: 'Linkedin', url: 'https://www.linkedin.com/in/wong' },
+    { name: 'Github', url: 'https://github.com/wong' },
   ];
 
   return (
