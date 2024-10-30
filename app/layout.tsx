@@ -12,8 +12,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   title: {
-    default: 'Lee Robinson',
-    template: '%s | Lee Robinson',
+    default: 'Wong',
+    template: '%s | Wong',
   },
   description: 'Frontend developer, optimist, community builder.',
 };
