@@ -42,10 +42,12 @@ export default function RootLayout({
 
 function Footer() {
   const links = [
-    { name: '@Wong', url: 'https://x.com/wong' },
-    { name: 'Youtube', url: 'https://www.youtube.com/@wong' },
-    { name: 'Linkedin', url: 'https://www.linkedin.com/in/wong' },
-    { name: 'Github', url: 'https://github.com/wong' },
+    // { name: '@Wong', url: 'https://x.com/wong' },
+    // { name: 'Youtube', url: 'https://www.youtube.com/@wong' },
+    // { name: 'Linkedin', url: 'https://www.linkedin.com/in/wong' },
+    // { name: 'Linkedin', url: 'https://www.linkedin.com/in/wong' },
+    { name: 'Github', url: 'https://github.com/wong30' },
+    { name: 'Powered by leerob', url: 'https://github.com/leerob/site' },
   ];
 
   return (
